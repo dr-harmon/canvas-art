@@ -9,6 +9,8 @@
 #include <vector>
 
 class Canvas : public AbstractGrid {
+    std::string author;
+    std::vector< std::shared_ptr<AbstractShape> > shapes;
 public:
     Canvas(int width, int height, std::string author);
     void draw() const;
