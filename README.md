@@ -67,6 +67,8 @@ When the program runs, it should print the following:
     Author: Trevor Harmon
     Paint needed: 3756.6
 
+_Windows users: If the characters do not appear correctly, type `chcp 65001` in your terminal then re-run._
+
 Your `main` function should also create a second canvas with art of your own choosing (a house, a stick figure, a purely abstract design, or whatever you like). Feel free to add your own shape subclasses and change the grid size to anything reasonable. It should also print your name as author and the amount of paint needed for your artwork.
 
 Hints:
